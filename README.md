@@ -5,6 +5,9 @@ Enterprise Software Engineering - Spring 2019
 Language: Java  
 Libraries: JavaFX, Log4j, JDBC
 
+![alt text](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/book_detail_view.png "Book Detail View")
+
+
 ## Description
 
 Tracks authors, books, quantity of books. Users are able to search for books by title, author, genre, and ISBNs. A strict audit trail tracks any changes in data.
