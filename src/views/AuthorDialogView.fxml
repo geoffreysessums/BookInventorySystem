@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="26.0" layoutY="28.0" text="First Name" />
+      <Label layoutX="217.0" layoutY="28.0" text="Last Name" />
+      <Label layoutX="26.0" layoutY="85.0" text="Date of Birth" />
+      <Label layoutX="217.0" layoutY="85.0" text="Gender" />
+      <Label layoutX="26.0" layoutY="144.0" text="Website" />
+      <TextField fx:id="tfFirstName" layoutX="26.0" layoutY="45.0" />
+      <TextField fx:id="tfLastName" layoutX="217.0" layoutY="45.0" />
+      <TextField fx:id="tfGender" layoutX="217.0" layoutY="102.0" prefHeight="27.0" prefWidth="66.0" />
+      <TextField fx:id="tfWebsite" layoutX="26.0" layoutY="161.0" />
+      <DatePicker fx:id="dpDOB" layoutX="26.0" layoutY="102.0" prefHeight="27.0" prefWidth="138.0" />
+      <Button fx:id="buttonSave" layoutX="26.0" layoutY="207.0" mnemonicParsing="false" onAction="#onMouseClicked" prefHeight="27.0" prefWidth="113.0" text="Save" />
+      <Label layoutX="217.0" layoutY="144.0" text="Royalty" />
+      <TextField fx:id="tfRoyalty" layoutX="217.0" layoutY="161.0" prefHeight="27.0" prefWidth="67.0" />
+   </children>
+</AnchorPane>

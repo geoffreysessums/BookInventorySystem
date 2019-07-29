@@ -1,0 +1,59 @@
+17:36:28.880 INFO  application.Launcher : Calling init
+17:36:29.568 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+17:36:29.626 INFO  application.Launcher : Initializing MasterViewController
+17:36:30.218 INFO  controllers.MenuController : Initializing menu controller
+17:36:37.816 INFO  controllers.MenuController : Menu item selected: Login
+12:14:38.061 INFO  application.Launcher : Calling init
+12:14:38.633 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+12:14:38.859 INFO  application.Launcher : Initializing MasterViewController
+12:14:39.360 INFO  controllers.MenuController : Initializing menu controller
+11:52:03.997 INFO  application.Launcher : Calling init
+11:52:04.952 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+11:52:05.174 INFO  application.Launcher : Initializing MasterViewController
+11:52:05.515 INFO  controllers.MenuController : Initializing menu controller
+11:52:14.158 INFO  controllers.MenuController : Menu item selected: Quit
+11:52:17.713 INFO  application.Launcher : Calling init
+11:52:18.330 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+11:52:18.557 INFO  application.Launcher : Initializing MasterViewController
+11:52:18.961 INFO  controllers.MenuController : Initializing menu controller
+11:52:29.571 INFO  controllers.MenuController : Menu item selected: Login
+11:52:37.302 INFO  application.Launcher : Calling init
+11:52:37.913 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+11:52:38.140 INFO  application.Launcher : Initializing MasterViewController
+11:52:38.580 INFO  controllers.MenuController : Initializing menu controller
+11:53:04.956 INFO  controllers.MenuController : Menu item selected: Login
+11:53:20.904 INFO  controllers.MenuController : userName is wilma, password is arugula
+11:53:20.904 INFO  controllers.MenuController : sha256 hash of password is 60eaa666b850cfa979b6f7741fbf60aa4d1173c73d6663069b301bce44b77f0e
+11:53:20.905 INFO  controllers.MenuController : session id is 1
+11:53:23.891 INFO  controllers.MenuController : Menu item selected: Book List
+11:53:23.895 INFO  controllers.MasterViewController : Displaying Book List view
+11:53:25.277 INFO  controllers.BookTableGateway : Returning total record count: 100003
+11:53:25.308 INFO  controllers.MasterViewController : Time to load view (ms): 1415
+11:53:34.400 INFO  controllers.MenuController : Menu item selected: Add Book
+11:53:34.401 INFO  controllers.MasterViewController : Displaying Book detail view
+11:53:34.401 INFO  controllers.PublisherTableGateway : Retrieving publisher list
+11:53:34.489 INFO  controllers.BookDetailViewController : Initializing book detail view fields
+11:53:34.517 INFO  models.Book : Returning audit trail for ""
+11:53:34.517 INFO  controllers.BookDetailViewController : Audit trail does not exist. Disabling audit trail button
+11:53:34.542 INFO  models.Book : Returning authors for ""
+11:53:34.548 INFO  controllers.MasterViewController : Time to load view (ms): 147
+11:53:43.638 INFO  controllers.MenuController : Menu item selected: Book List
+11:53:43.638 INFO  controllers.MasterViewController : Checking if view has changed
+11:53:43.639 INFO  controllers.MasterViewController : Displaying Book List view
+11:53:43.736 INFO  controllers.BookTableGateway : Returning total record count: 100003
+11:53:43.749 INFO  controllers.MasterViewController : Time to load view (ms): 110
+11:53:45.929 INFO  controllers.BookListViewController$1 : double-clicked 1: Book 1 Django
+11:53:45.930 INFO  controllers.MasterViewController : Displaying Book detail view
+11:53:45.930 INFO  controllers.PublisherTableGateway : Retrieving publisher list
+11:53:45.998 INFO  controllers.BookDetailViewController : Initializing book detail view fields
+11:53:46.026 INFO  models.Book : Returning audit trail for "Book 1 Django"
+11:53:46.103 INFO  models.Book : Returning authors for "Book 1 Django"
+11:53:46.105 INFO  controllers.MasterViewController : Time to load view (ms): 175
+11:57:10.967 INFO  application.Launcher : Calling init
+11:57:11.830 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+11:57:12.054 INFO  application.Launcher : Initializing MasterViewController
+11:57:12.411 INFO  controllers.MenuController : Initializing menu controller
+11:58:13.578 INFO  application.Launcher : Calling init
+11:58:14.269 INFO  controllers.PublisherTableGateway : Connecting publisher table gateway
+11:58:14.495 INFO  application.Launcher : Initializing MasterViewController
+11:58:14.943 INFO  controllers.MenuController : Initializing menu controller

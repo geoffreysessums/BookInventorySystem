@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="buttonBack" layoutX="276.0" layoutY="347.0" mnemonicParsing="false" onAction="#onMouseClicked" text="Back" />
+      <ScrollPane layoutY="63.0" prefHeight="262.0" prefWidth="600.0">
+         <content>
+            <ListView fx:id="auditTrailListView" prefHeight="260.0" prefWidth="598.0" />
+         </content>
+      </ScrollPane>
+      <Label fx:id="auditTrailLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="23.0" prefHeight="17.0" prefWidth="600.0" text="Book Title" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+   </children>
+</AnchorPane>

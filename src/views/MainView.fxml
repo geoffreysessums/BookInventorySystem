@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="loginMenuItem" mnemonicParsing="false" onAction="#clickMenuItem" text="Login" />
+              <MenuItem fx:id="logoutMenuItem" mnemonicParsing="false" onAction="#clickMenuItem" text="Logout" />
+              <MenuItem fx:id="quitMenuItem" mnemonicParsing="false" onAction="#clickMenuItem" text="Quit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Books">
+            <items>
+              <MenuItem fx:id="bookListMenuItem" mnemonicParsing="false" onAction="#clickMenuItem" text="Book List" />
+                <SeparatorMenuItem />
+              <MenuItem fx:id="addBookMenuItem" mnemonicParsing="false" onAction="#clickMenuItem" text="Add Book" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+		<GridPane  
+			xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+			styleClass="root">
+			<padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+			<!--   <gridLinesVisible>true</gridLinesVisible> -->
+
+			<Text fx:id="textLogin" text="Not logged in" 
+				GridPane.columnIndex="0" GridPane.rowIndex="0"
+				GridPane.columnSpan="2"/>
+
+			<Text fx:id="textSessionId" text="No session id" 
+				GridPane.columnIndex="0" GridPane.rowIndex="1"
+				GridPane.columnSpan="2"/>
+      
+		</GridPane>
+	</center>
+</BorderPane>
