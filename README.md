@@ -15,7 +15,7 @@ Tracks authors, books, quantity of books. Users are able to search for books by 
 
 ### More Images
 
-- [Book List](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/book_list_view.png) __(Records are listed as "id#: (Book record count) Title". The record count was included for testing purposes)__
+- [Book List](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/book_list_view.png) __(Records are listed by id and title)__
 - [Edit Author](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/edit_author_view.png)
 - [Login](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/login.png)
 - [Audit Trail](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/audit_trail_view.png)
