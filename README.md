@@ -5,12 +5,21 @@ Enterprise Software Engineering - Spring 2019
 Language: Java  
 Libraries: JavaFX, Log4j, JDBC
 
-![alt text](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/book_detail_view.png "Book Detail View")
-
-
 ## Description
 
 Tracks authors, books, quantity of books. Users are able to search for books by title, author, genre, and ISBNs. A strict audit trail tracks any changes in data.
+
+### Preview
+
+![alt text](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/book_detail_view.png "Book Detail View")
+
+### More Images
+
+- [Book List](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/book_list_view.png) __(Records that seem to be missing, were simply removed during testing)__
+- [Edit Author](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/edit_author_view.png)
+- [Login](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/login.png)
+- [Audit Trail](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/audit_trail_view.png)
+- [Add Book](https://github.com/geoffreysessums/BookInventorySystem/blob/master/screenshots/add_book_view.png)
 
 ## What I Learned
 
