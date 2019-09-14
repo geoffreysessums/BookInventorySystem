@@ -4,10 +4,11 @@ Geoffrey Sessums
 Enterprise Software Engineering - Spring 2019  
 Language: Java  
 Libraries: JavaFX, Log4j, JDBC
+Database: MySQL
 
 ## Description
 
-Tracks authors, books, quantity of books. Users are able to search for books by title, author, genre, and ISBNs. A strict audit trail tracks any changes in data.
+An inventory manager that allows multiple users to search, add, edit, and delete books and book details while an audit trail tracks all changes made to the book records. 
 
 ### Preview
 
