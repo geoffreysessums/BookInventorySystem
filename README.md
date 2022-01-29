@@ -1,4 +1,4 @@
-# BookInventorySystem
+# Book Inventory IMS
 
 Geoffrey Sessums  
 Enterprise Software Engineering - Spring 2019  
