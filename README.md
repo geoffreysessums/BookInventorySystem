@@ -1,4 +1,4 @@
-# Book Inventory IMS
+# Book Inventory Management System (Book IMS)
 
 Geoffrey Sessums  
 Enterprise Software Engineering - Spring 2019  
